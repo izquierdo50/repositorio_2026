@@ -1,0 +1,115 @@
+# MI PRESENTACION PERSONAL
+nombre=input("cual es tu nombre")
+print("hola,minombre es",nombre)
+edad=int(input("que edad tienes"))
+print("tengo",edad, "años")
+cuidad=input("donde vives")
+print("vivo,en",cuidad)
+es_mayor = edad >= 18
+print("Es mayor de edad ->", es_mayor)
+
+# CALCULADORA PERSONAL
+#  números
+num1 = int(input("Ingrese el primer número entero: "))
+num2 = int(input("Ingrese el segundo número entero: "))
+
+# Operaciones
+suma = num1 + num2
+resta = num1 - num2
+multiplicacion = num1 * num2
+division = num1 / num2
+division_entera = num1 // num2
+residuo = num1 % num2
+potencia = num1 ** num2
+
+#resultados
+print("La suma es:", suma)
+print("La resta es:", resta)
+print("La multiplicación es:", multiplicacion)
+print("La división es:", division)
+print("La división entera es:", division_entera)
+print("El residuo es:", residuo)
+print("La potencia es:", potencia)
+
+# final
+print("La suma es mayor que 100 ->", suma > 100)
+
+
+
+# 03 - CONVERSOR DE TEMPERATURA
+
+print("CONVERSOR DE TEMPERATURA")
+
+# Entrada
+celsius = float(input("Ingrese la temperatura en Celsius: "))
+
+# Conversiones
+fahrenheit = (celsius * 9/5) + 32
+kelvin = celsius + 273.15
+
+# Resultados
+print("\n--RESULTADOS")
+print("Temperatura en Celsius :", celsius)
+print("Temperatura en Fahrenheit :", fahrenheit)
+print("Temperatura en Kelvin :", kelvin)
+
+# Comparación final
+print("\n---COMPARACIÓN")
+print("Supera temperatura de fiebre?:", celsius > 37)
+
+
+
+# PROMEDIO DE NOTAS DEL ESTUDIANTE
+
+nota1 = float(input("Ingrese la primera nota: "))
+nota2 = float(input("Ingrese la segunda nota: "))
+nota3 = float(input("Ingrese la tercera nota: "))
+
+promedio = (nota1 + nota2 + nota3) / 3
+
+print("Nota 1:", nota1)
+print("Nota 2:", nota2)
+print("Nota 3:", nota3)
+print("Promedio:", promedio)
+
+print("El estudiante aprobó ", promedio >= 3.0)
+
+
+# CALCULO DE COMPRA EN TIENDA
+
+producto = input("Ingrese el nombre del producto: ")
+precio = float(input("Ingrese el precio unitario: "))
+cantidad = float(input("Ingrese la cantidad: "))
+
+subtotal = precio * cantidad
+iva = subtotal * 0.19
+total = subtotal + iva
+
+print("Producto:", producto)
+print("Precio unitario:", precio)
+print("Cantidad:", cantidad)
+print("Subtotal:", subtotal)
+print("IVA (19%):", iva)
+print("Total a pagar:", total)
+
+print(" aplicar descuento especial", total > 50000)
+
+
+
+
+# CALCULO DEL IMC
+
+nombre = input("Ingrese su nombre: ")
+peso = float(input("Ingrese su peso en kilogramos: "))
+altura = float(input("Ingrese su altura en metros: "))
+
+imc = peso / (altura * altura)
+
+print("Nombre:", nombre)
+print("Peso (kg):", peso)
+print("Altura (m):", altura)
+print("IMC:", imc)
+
+print("El IMC está en el rango normal", imc >= 18.5 and imc <= 24.9)
+
+
