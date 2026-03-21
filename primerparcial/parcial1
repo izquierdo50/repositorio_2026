@@ -1,0 +1,16 @@
+nombre = input("Ingresa tu nombre: ")
+consumo = int(input("Ingresa tu consumo mensual de agua (m³): "))
+if consumo <= 0:
+    print ( " Dato inválido")
+    mesaje="erro de consumo"
+
+elif consumo <=15:
+    print("bajo consumo")
+    mensaje="exelente"
+elif consumo <= 30:
+    print  (" Consumo normal")
+    mensaje="promedio del consumo"
+else:
+    print (" Alto consumo")
+    mensaje="ojo muy mal el consumo"
+    
